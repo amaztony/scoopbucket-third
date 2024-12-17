@@ -1,3 +1,7 @@
+> 本仓库fork自[scoopbucket-third](https://github.com/cmontage/scoopbucket-third)仓库，移除了nodejs.org和github.com相关的代理逻辑，仅为自用。
+>
+> 以下为原仓库说明。
+
 <p align="center"><img src="https://gcore.jsdelivr.net/gh/cmontage/scoopbucket@main/bin/scoop.png" alt="Scoop Logo" ></p>
 
 <h1 align="center">Third Bucket All In One</h1>
@@ -5,8 +9,6 @@
 将 Scoop 第三方库整合成一个 Bucket，每日同步，作为我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket) 的拓展，安装应用时便于分辨官方源与第三方源，方便我自己自用。
 
 Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an extension of my official Scoop integration library, easy to distinguish between official and third-party sources when installing applications, convenient for self-use.
-
-本仓库fork自以上仓库，移除了nodejs.org和github.com相关的代理逻辑，仅为自用。
 
 ## 介绍
 
@@ -33,13 +35,14 @@ Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an e
 > 输入 scoop -V 命令查看 Scoop 版本
 
 添加本仓库，运行命令
+> 此处链接改为本仓库链接
 
-    ```powershell
-    scoop bucket add third https://github.com/amaztony/scoopbucket-third
+```powershell
+scoop bucket add third https://github.com/amaztony/scoopbucket-third
 
-    # 如果需要移除本仓库
-    scoop bucket rm third
-    ```
+# 如果需要移除本仓库
+scoop bucket rm third
+```
 
 > [!TIP] 
 >
