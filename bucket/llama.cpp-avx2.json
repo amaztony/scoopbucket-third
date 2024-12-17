@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ggerganov/llama.cpp/releases/download/b4273/llama-b4273-bin-win-avx2-x64.zip",
+      "url": "https://github.com/ggerganov/llama.cpp/releases/download/b4273/llama-b4273-bin-win-avx2-x64.zip",
       "hash": "4a171bda8559be6c7119d07650d1c715b7ad0457ddc4130037ce1e38fc187a13"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-avx2-x64.zip"
+        "url": "https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-avx2-x64.zip"
       }
     }
   }

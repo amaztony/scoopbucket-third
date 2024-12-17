@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/vrc-get/vrc-get/releases/download/gui-v0.1.16/ALCOM-0.1.16-x86_64.exe#/ALCOM.exe",
+      "url": "https://github.com/vrc-get/vrc-get/releases/download/gui-v0.1.16/ALCOM-0.1.16-x86_64.exe#/ALCOM.exe",
       "hash": "5c4568afaccdb8e649a6341f2233d3ba2e686edcbb0e404f8f12a83d9d679243"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/vrc-get/vrc-get/releases/download/gui-v$version/ALCOM-$version-x86_64.exe#/ALCOM.exe"
+        "url": "https://github.com/vrc-get/vrc-get/releases/download/gui-v$version/ALCOM-$version-x86_64.exe#/ALCOM.exe"
       }
     }
   }

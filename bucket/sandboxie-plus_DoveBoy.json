@@ -9,11 +9,11 @@
   "notes": "Get Sandboxie Classic if you have used Sandboxie for a long time and prefer a familiar environment over new features.",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x64-v1.15.3.exe",
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x64-v1.15.3.exe",
       "hash": "bf211e7a38e719deee7389b77e965718986fb6efe4a57947231f3cbfdbeb622f"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x86-v1.15.3.exe",
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x86-v1.15.3.exe",
       "hash": "3fd4ee02ed8f64ef497b559990ace2ed214298cc5d415a1a64b32a0e57e67237"
     }
   },
@@ -55,10 +55,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Plus-x64-v$version.exe"
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Plus-x64-v$version.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Plus-x86-v$version.exe"
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Plus-x86-v$version.exe"
       }
     }
   }

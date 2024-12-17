@@ -18,7 +18,7 @@
     "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
   ],
   "checkver": {
-    "url": "https://registry.npmmirror.com/-/binary/node/latest/",
+    "url": "https://nodejs.org/dist/latest/",
     "regex": "node-v([\\d.]+)-x86.msi"
   },
   "autoupdate": {

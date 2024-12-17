@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mkckr0/audio-share/releases/download/v0.3.0/AudioShareServer.exe",
+      "url": "https://github.com/mkckr0/audio-share/releases/download/v0.3.0/AudioShareServer.exe",
       "hash": "1f4bc8cbb6e9565722b245d4cad263b02eecff68b26e9971fcea86191fa0cbdf"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mkckr0/audio-share/releases/download/v$version/AudioShareServer.exe"
+        "url": "https://github.com/mkckr0/audio-share/releases/download/v$version/AudioShareServer.exe"
       }
     }
   }

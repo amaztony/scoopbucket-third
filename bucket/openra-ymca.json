@@ -5,11 +5,11 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/patrickwieth/YMCA/releases/download/v0.95.43/YouMustConstructAdditional-v0.95.43-x86-winportable.zip",
+      "url": "https://github.com/patrickwieth/YMCA/releases/download/v0.95.43/YouMustConstructAdditional-v0.95.43-x86-winportable.zip",
       "hash": "da463441c58fdea21deefe510c49a4869607c3583e290287284b795988b5d4f6"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/patrickwieth/YMCA/releases/download/v0.95.43/YouMustConstructAdditional-v0.95.43-x64-winportable.zip",
+      "url": "https://github.com/patrickwieth/YMCA/releases/download/v0.95.43/YouMustConstructAdditional-v0.95.43-x64-winportable.zip",
       "hash": "7d9fa397a57e1ffdc90e6a8ba3de991c9e4875c94e1c63393b875c29b9198731"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/patrickwieth/YMCA/releases/download/$matchPrefix$version/YouMustConstructAdditional-$matchPrefix$version-x86-winportable.zip"
+        "url": "https://github.com/patrickwieth/YMCA/releases/download/$matchPrefix$version/YouMustConstructAdditional-$matchPrefix$version-x86-winportable.zip"
       },
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/patrickwieth/YMCA/releases/download/$matchPrefix$version/YouMustConstructAdditional-$matchPrefix$version-x64-winportable.zip"
+        "url": "https://github.com/patrickwieth/YMCA/releases/download/$matchPrefix$version/YouMustConstructAdditional-$matchPrefix$version-x64-winportable.zip"
       }
     }
   }

@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/conda-forge/miniforge/releases/download/24.11.0-1/Mambaforge-24.11.0-1-Windows-x86_64.exe",
+      "url": "https://github.com/conda-forge/miniforge/releases/download/24.11.0-1/Mambaforge-24.11.0-1-Windows-x86_64.exe",
       "hash": "8ee08a4074aa1a2e48a0f73245e77571974bd8e33951d56cc67ce6960668294e"
     }
   },
@@ -51,7 +51,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/conda-forge/miniforge/releases/download/$version/Mambaforge-$version-Windows-x86_64.exe",
+        "url": "https://github.com/conda-forge/miniforge/releases/download/$version/Mambaforge-$version-Windows-x86_64.exe",
         "hash": {
           "url": "$url.sha256"
         }

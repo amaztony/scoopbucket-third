@@ -5,7 +5,7 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/killkimno/MORT/releases/download/1.282/MORT.1.282v.-.20240929.zip",
+      "url": "https://github.com/killkimno/MORT/releases/download/1.282/MORT.1.282v.-.20240929.zip",
       "hash": "6b1266e80a02b76f5106abe65ae86ca16adc95dc709aa9a34002f73a794fa61b"
     }
   },

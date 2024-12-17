@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gvcgo/version-manager/releases/download/v0.7.0/vmr_windows-amd64.zip",
+      "url": "https://github.com/gvcgo/version-manager/releases/download/v0.7.0/vmr_windows-amd64.zip",
       "hash": "f0437db54883ea44331dfc33b14f2d98d65cfd7c87713c4f36469e8320f84eb0"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gvcgo/version-manager/releases/download/v0.7.0/vmr_windows-arm64.zip",
+      "url": "https://github.com/gvcgo/version-manager/releases/download/v0.7.0/vmr_windows-arm64.zip",
       "hash": "134cd032c4770e4f288b3ffd4682d2e8feec17fa6bf0e80252f37e5335d8bfed"
     }
   },
@@ -31,10 +31,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/gvcgo/version-manager/releases/download/v$version/vmr_windows-amd64.zip"
+        "url": "https://github.com/gvcgo/version-manager/releases/download/v$version/vmr_windows-amd64.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/gvcgo/version-manager/releases/download/v$version/vmr_windows-arm64.zip"
+        "url": "https://github.com/gvcgo/version-manager/releases/download/v$version/vmr_windows-arm64.zip"
       }
     }
   }

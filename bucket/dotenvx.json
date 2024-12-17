@@ -5,7 +5,7 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/dotenvx/dotenvx/releases/download/v1.31.0/dotenvx-1.31.0-windows-x86_64.tar.gz",
+      "url": "https://github.com/dotenvx/dotenvx/releases/download/v1.31.0/dotenvx-1.31.0-windows-x86_64.tar.gz",
       "hash": "b3e3b15053ddfb83e53700d7156f68c33b226a1ed2f6947eaaebd98f1eefb0bc"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/dotenvx/dotenvx/releases/download/v$version/dotenvx-$version-windows-x86_64.tar.gz"
+        "url": "https://github.com/dotenvx/dotenvx/releases/download/v$version/dotenvx-$version-windows-x86_64.tar.gz"
       }
     }
   }

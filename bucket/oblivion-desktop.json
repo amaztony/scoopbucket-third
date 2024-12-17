@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bepass-org/oblivion-desktop/releases/download/v2.2.0/oblivion-desktop-win-x64.zip",
+      "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/v2.2.0/oblivion-desktop-win-x64.zip",
       "hash": "9428f90992414c6aa5cb81ffcac2dcec6ea9053e362942a7ef16cddb77441e95"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bepass-org/oblivion-desktop/releases/download/$version/oblivion-desktop-win-x64.zip"
+        "url": "https://github.com/bepass-org/oblivion-desktop/releases/download/$version/oblivion-desktop-win-x64.zip"
       }
     }
   },

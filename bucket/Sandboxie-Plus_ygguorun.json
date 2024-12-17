@@ -6,11 +6,11 @@
   "notes": "The shortcuts are located in \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Sandboxie-Plus\\\"",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x64-v1.15.3.exe",
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x64-v1.15.3.exe",
       "hash": "bf211e7a38e719deee7389b77e965718986fb6efe4a57947231f3cbfdbeb622f"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x86-v1.15.3.exe",
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.3/Sandboxie-Plus-x86-v1.15.3.exe",
       "hash": "3fd4ee02ed8f64ef497b559990ace2ed214298cc5d415a1a64b32a0e57e67237"
     }
   },
@@ -47,10 +47,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x64-v$matchHead.exe"
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x64-v$matchHead.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x86-v$matchHead.exe"
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x86-v$matchHead.exe"
       }
     }
   }

@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/usebruno/bruno/blob/main/license.md"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/usebruno/bruno/releases/download/v1.36.1/bruno_1.36.1_x64_win.exe#/abgo_bucket_installer.exe",
+  "url": "https://github.com/usebruno/bruno/releases/download/v1.36.1/bruno_1.36.1_x64_win.exe#/abgo_bucket_installer.exe",
   "hash": "619bdf223026940b9017fe13d87df460c5d2819397021070d744e3a697007caa",
   "shortcuts": [
     [
@@ -39,6 +39,6 @@
     "github": "https://github.com/usebruno/bruno"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/usebruno/bruno/releases/download/v$version/bruno_$version_x64_win.exe#/abgo_bucket_installer.exe"
+    "url": "https://github.com/usebruno/bruno/releases/download/v$version/bruno_$version_x64_win.exe#/abgo_bucket_installer.exe"
   }
 }

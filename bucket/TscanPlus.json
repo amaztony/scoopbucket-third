@@ -6,12 +6,12 @@
   "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/v2.6.4/TscanPlus_Win_Amd64_v2.6.4.zip",
+      "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.6.4/TscanPlus_Win_Amd64_v2.6.4.zip",
       "hash": "cf028428d4e4d89f3477a40336d383c99ee8e93e222a5f504746bddbeae07485",
       "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Amd64.exe\" 'TscanPlus.exe'"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/v2.6.4/TscanPlus_Win_Arm64_v2.6.4.zip",
+      "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.6.4/TscanPlus_Win_Arm64_v2.6.4.zip",
       "hash": "c3707d3a7efcd3304f850ae2493844f860000ac960c6f570b4a23312c0cb6afe",
       "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Arm64.exe\" 'TscanPlus.exe'"
     }
@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
+        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
+        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
       }
     }
   }

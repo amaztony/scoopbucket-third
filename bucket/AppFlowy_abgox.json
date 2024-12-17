@@ -6,7 +6,7 @@
     "identifier": "GNU Affero General Public License v3.0",
     "url": "https://github.com/AppFlowy-IO/AppFlowy/blob/main/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.7.7/AppFlowy-0.7.7-windows-x86_64.exe#/abgo_bucket_installer.exe",
+  "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.7.7/AppFlowy-0.7.7-windows-x86_64.exe#/abgo_bucket_installer.exe",
   "hash": "3e7861877edf7c2f789501d6a09d3df22709c007c27ba66e7cf257b67730ceb5",
   "shortcuts": [
     [
@@ -38,6 +38,6 @@
     "github": "https://github.com/AppFlowy-IO/AppFlowy"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-$version-windows-x86_64.exe#/abgo_bucket_installer.exe"
+    "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-$version-windows-x86_64.exe#/abgo_bucket_installer.exe"
   }
 }

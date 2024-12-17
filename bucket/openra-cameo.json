@@ -5,11 +5,11 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241214/CameoMod-playtest-20241214-x86-winportable.zip",
+      "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241214/CameoMod-playtest-20241214-x86-winportable.zip",
       "hash": "08a50ecb451e99c1efa01e7a567cd3f9ced14376aab176a879a3893cda544109"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241214/CameoMod-playtest-20241214-x64-winportable.zip",
+      "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20241214/CameoMod-playtest-20241214-x64-winportable.zip",
       "hash": "cf2ca698f54ba1833401ae4cd661f7279e3c48eb068f16b2536c43d95bd520cf"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$matchPrefix$version-x86-winportable.zip"
+        "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$matchPrefix$version-x86-winportable.zip"
       },
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$matchPrefix$version-x64-winportable.zip"
+        "url": "https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$matchPrefix$version-x64-winportable.zip"
       }
     }
   }

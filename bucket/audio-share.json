@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mkckr0/audio-share/releases/download/v0.3.0/audio-share-server-cmd-windows.zip",
+      "url": "https://github.com/mkckr0/audio-share/releases/download/v0.3.0/audio-share-server-cmd-windows.zip",
       "hash": "abf5829ceb4159587237b79a452d11c53b387c945be3f9ed16cfe7a5782903f0"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mkckr0/audio-share/releases/download/v$version/audio-share-server-cmd-windows.zip"
+        "url": "https://github.com/mkckr0/audio-share/releases/download/v$version/audio-share-server-cmd-windows.zip"
       }
     }
   }
