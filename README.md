@@ -6,6 +6,8 @@
 
 Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an extension of my official Scoop integration library, easy to distinguish between official and third-party sources when installing applications, convenient for self-use.
 
+本仓库fork自以上仓库，移除了nodejs.org和github.com相关的代理逻辑，仅为自用。
+
 ## 介绍
 
 包含了我觉得自己用得到的 Scoop 第三方库：
@@ -33,7 +35,7 @@ Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an e
 添加本仓库，运行命令
 
     ```powershell
-    scoop bucket add third https://mirror.ghproxy.com/github.com/cmontage/scoopbucket-third
+    scoop bucket add third https://github.com/amaztony/scoopbucket-third
 
     # 如果需要移除本仓库
     scoop bucket rm third

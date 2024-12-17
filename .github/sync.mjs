@@ -92,18 +92,9 @@ async function syncDir(src, dest, repo = '') {
         }
       }
 
-      if (basename.startsWith('nodejs')) {
-        content = content.replace(/(https:\/\/nodejs\.org\/dist\/)/gim, 'https://registry.npmmirror.com/-/binary/node/');
-      } else if (content.includes('github.com') || content.includes('githubusercontent.com')) {
-        CONFIG.ghproxyInvalid.forEach(url => {
-          if (content.includes(url)) content = content.replaceAll(url, CONFIG.ghproxy);
-        });
-
-        content = content
-          .replace(/(https:\/\/github\.com.+\/releases\/download\/)/gim, `${CONFIG.ghproxy}/$1`)
-          .replace(/(https:\/\/github\.com.+\/archive\/)/gim, `${CONFIG.ghproxy}/$1`)
-          .replace(/(https\:\/\/(raw|gist)\.githubusercontent\.com)/gim, `${CONFIG.ghproxy}/$1`)
-          .replaceAll(`${CONFIG.ghproxy}/${CONFIG.ghproxy}`, CONFIG.ghproxy);
+      if (content.includes('github.com') || content.includes('githubusercontent.com')) {
+        CONFIG.ghproxyInvalid.forEach(url => content = content.replaceAll(`${url}/`, ''));
+        content = content.replaceAll(`${CONFIG.ghproxy}/`, '');
       }
       cacheItem.fixed = content !== rawContent;
       fs.writeFileSync(dest, content, 'utf8');
