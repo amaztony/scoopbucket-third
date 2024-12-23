@@ -1,13 +1,13 @@
 {
-  "version": "6.37",
+  "version": "6.38",
   "description": "(GUI-多平台支持) B站 哔哩哔哩 视频下载器。支持稍后再看、收藏夹、UP主视频批量下载|Bilibili Video Downloader 😳",
   "homepage": "http://nicennnnnnnlee.github.io/blog/2019/03/02/java-spider-bilibili-down-index/",
   "license": {
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown#Apache-2.0-1-ov-file"
   },
-  "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V6.37/BilibiliDown.v6.37.win_x64_jre11.release.zip",
-  "hash": "sha1:c0b1646fb53edeba95bb58c21e9b46ab86f02a08",
+  "url": "https://github.com/nICEnnnnnnnLee/BilibiliDown/releases/download/V6.38/BilibiliDown.v6.38.win_x64_jre11.release.zip",
+  "hash": "sha1:57b538aec89f9ab0bccc293c92ce1fc7c78ce156",
   "shortcuts": [
     [
       "Double-Click-to-Run-for-Win.bat",
